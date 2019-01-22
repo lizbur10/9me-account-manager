@@ -27,18 +27,11 @@ class AccountContainer extends Component {
         })
       }
 
-    // selectChangeHandler = (event) => {
-
-    // }
 
     render () {
         return (
             <React.Fragment>
                 <Account companyInfo={this.state.companyInfo} changeHandler={this.changeHandler} /> 
-                {/* <Account companyInfo={this.state.companyInfo} changeHandler={this.changeHandler} selectChangeHandler={this.selectChangeHandler}/>  */}
-                {/* <Account companyName="Springfield Nuclear Power Plant"/> 
-                <Account companyName="Spacely Sprockets"/> 
-                <Account companyName="Slate Rock and Gravel Company"/>  */}
             </React.Fragment>
         );
     }
